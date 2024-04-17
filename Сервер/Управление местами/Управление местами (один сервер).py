@@ -75,7 +75,7 @@ def serve_reservation():
 
     # подключение к облачной базе данных
     db_connection = psycopg2.connect("""
-        host=rc1d-5g27m0aeolofwslv.mdb.yandexcloud.net
+        host=###
         port=6432
         dbname=db1
         user=user1
